@@ -1,7 +1,5 @@
 # Cryptography Programming Project README
 
-Daniel Mariscal
-
 ## Introduction
 This Java program offers a customizable encryption tool for securing messages using a user-provided keyword. It facilitates the encryption process by converting letters to their corresponding two-digit representations and rearranging them based on the alphabetical order of the keyword.
 
@@ -147,3 +145,88 @@ public class MessageEncryptor {
 }
 
 ```
+
+## Sample Data & Output Screenshots
+
+Enter the message to be encrypted (without numbers or symbols):
+hello, my #1friend
+
+Enter the keyword for encryption (no numbers, symbols, or duplicate characters):
+security
+
+Message to Be Encrypted:
+HELLO MY FRIEND
+
+Sequence from Letter Matrix:
+3 2 
+2 9 
+3 6 
+3 6 
+3 9 
+-1 2 
+3 7 
+4 9 
+-1 2 
+3 0 
+4 2 
+3 3 
+2 9 
+3 8 
+2 8 
+
+The Keyword:
+SECURITY
+
+The Keyword Matrix:
+3 2 3 2 3 2 3 2 
+2 9 2 9 2 9 2 9 
+3 6 3 6 3 6 3 6 
+3 6 3 6 3 6 3 6 
+3 9 3 9 3 9 3 9 
+-1 2 -1 2 -1 2 -1 2 
+3 7 3 7 3 7 3 7 
+4 9 4 9 4 9 4 9 
+-1 2 -1 2 -1 2 -1 2 
+3 0 3 0 3 0 3 0 
+4 2 4 2 4 2 4 2 
+3 3 3 3 3 3 3 3 
+2 9 2 9 2 9 2 9 
+3 8 3 8 3 8 3 8 
+2 8 2 8 2 8 2 8 
+
+The Alphabetical Keyword:
+CEIRSTUY
+
+The Re-ordered Matrix:
+3 2 2 3 3 3 2 2 
+2 9 9 2 2 2 9 9 
+3 6 6 3 3 3 6 6 
+3 6 6 3 3 3 6 6 
+3 9 9 3 3 3 9 9 
+-1 2 2 -1 -1 -1 2 2 
+3 7 7 3 3 3 7 7 
+4 9 9 4 4 4 9 9 
+-1 2 2 -1 -1 -1 2 2 
+3 0 0 3 3 3 0 0 
+4 2 2 4 4 4 2 2 
+3 3 3 3 3 3 3 3 
+2 9 9 2 2 2 9 9 
+3 8 8 3 3 3 8 8 
+2 8 8 2 2 2 8 8 
+
+The Fully Encrypted Message:
+32333-134-1343232 296692792023988 296692792023988 32333-134-1343232 32333-134-1343232 32333-134-1343232 296692792023988 296692792023988
+
+## Screenshot 1:
+
+![Output Screenshot 1](https://github.com/dm963a/cryptographyprogramming/assets/159193565/e7b3a2dc-5b55-4d07-a6c3-eced94691a6c)
+
+## Screenshot 2:
+
+![Output Screenshot 2](https://github.com/dm963a/cryptographyprogramming/assets/159193565/65a94de7-c26a-4983-8f02-810eed28203d)
+
+## Screenshot 3:
+
+![Output Screenshot 3](https://github.com/dm963a/cryptographyprogramming/assets/159193565/e75dcb60-3f46-4bb9-ae1c-af021863e04c)
+
+
