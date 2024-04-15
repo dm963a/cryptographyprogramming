@@ -1,5 +1,7 @@
 # Cryptography Programming Project README
 
+Daniel Mariscal
+
 ## Introduction
 This Java program offers a customizable encryption tool for securing messages using a user-provided keyword. It facilitates the encryption process by converting letters to their corresponding two-digit representations and rearranging them based on the alphabetical order of the keyword.
 
